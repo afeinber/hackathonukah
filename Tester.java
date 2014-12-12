@@ -7,7 +7,7 @@ public class Tester{
 		Scanner scName = new Scanner(System.in);
 		String name = scName.next();
 		System.out.println("Your name is: "+name);
-		System.out.println("Nice to meet you "+name);
 		//This lookes nice.
+		System.out.println("Welcome to the program "+name);
 	}
 }
