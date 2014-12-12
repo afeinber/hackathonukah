@@ -8,5 +8,6 @@ public class Tester{
 		String name = scName.next();
 		System.out.println("Your name is: "+name);
 		System.out.println("Nice to meet you "+name);
+		//This lookes nice.
 	}
 }
