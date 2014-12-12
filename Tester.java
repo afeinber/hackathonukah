@@ -1,15 +1,11 @@
-import java.io.*;
-import java.util.*;
+#include <iostream>
+#include <String>
 
-public class Tester{
-	public static void main(String[]args){
-		System.out.println("Tester");
-		Scanner scName = new Scanner(System.in);
-		String name = scName.next();
-		System.out.println("Your name is: "+name);
-		//This lookes nice.
-		System.out.println("Welcome to the program "+name);
-		Scanner scChoice = new Scanner(System.in);
-		int choice = scChoice.nextInt();
-	}
+int main()
+{
+	std::cout << "Welcome to the program";
+	std::cout << "What is your name?";
+	std::cout << "Name: ";
+	String name;
+	std::cin >> name;
 }
