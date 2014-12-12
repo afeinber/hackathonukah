@@ -9,5 +9,7 @@ public class Tester{
 		System.out.println("Your name is: "+name);
 		//This lookes nice.
 		System.out.println("Welcome to the program "+name);
+		int choice = scChoice.nextInt();
+		Scanner scChoice = new Scanner(System.in);
 	}
 }
