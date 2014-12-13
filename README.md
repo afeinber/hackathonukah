@@ -1,4 +1,4 @@
-Hi Baby!!!
+Hi Baby!
 ====
 HTML Git Tutorial
 ====
