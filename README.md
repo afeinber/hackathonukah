@@ -1,8 +1,15 @@
-<h1>Hi Baby!</h1>
-<h2>Sync this repository and open the index.html file wherever you stored it. Probably under your Documents/github/HTML. Let me know if you need help baby I love you:heart::heart::heart::heart::heart::cupid::cupid::cupid::cupid::cupid:</h2>
-<h2>Use link to go to the Gitter chat for this Repository. Just click join chat and when you get to it just make an account by linking your GitHub account. Of course we don't have to use Gitter. Like you said we can use Skype if you want which would be nice cause we can voice call. It's your call baby,I love you:heart::heart::heart::heart::heart::cupid::cupid::cupid::cupid::cupid:</h2>
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/FanciestW/HTML?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<h2>Click <a href = "https://www.atlassian.com/git/tutorials/">here</a> for a GitHub tutorial.
-The tutorial is for teaching you how to use Git with command prompt so if you want to try it just check it out.</h2>
-<h2>Have Fun!</h2>
-
+Commands:
+====
+<h3>waveIn: is type 'a' which is move left</h3>
+<h3>waveOut: is type 'd' which is move right</h3>
+<h3>fist: is type 'w' which is move up</h3>
+<h3>fingersSpread: is type 's' which is move down</h3>
+<h3>doubleTab: is type 'x' which is pause</h3>
+How To Use Arduino Program With MeU:
+====
+<h3>1. Open Arduino Program and switch on MeU</h3>
+<h3>2. Set up Bluetooth to connect with MeU Bluetooth name</h3>
+<h3>3. Set Arduino Program to the bluetooth module with Tools</h3>
+<h3>4. Click the Serial button in top right corner</h3>
+ENJOY!
+====
