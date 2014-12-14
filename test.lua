@@ -3,27 +3,42 @@ scriptTitle = "Output Everything"
 scriptDetailsUrl = "" -- We don't have this until it's submitted to the Myo Market
 
 function onPoseEdge(pose, edge)
-
-    myo.debug("onPose: " .. pose)
+	myo.unlock("hold")
+    myo.debug("onPose: " .. pose.. " edge:"..edge)
     if(pose == "waveOut")then
-    	myo.keyboard("d","press")
-    	myo.keyboard("return","press")
+    	if(edge == "on")then
+	    	myo.keyboard("d","press")
+	    	myo.keyboard("return","press")
+    	elseif(edge == "off")then
+    	end
 
     elseif(pose == "waveIn")then
-    	myo.keyboard("a","press")
-    	myo.keyboard("return","press")
+    	if(edge == "on")then
+	    	myo.keyboard("a","press")
+	    	myo.keyboard("return","press")
+    	elseif(edge == "off")then
+    	end
 
     elseif(pose == "fist")then
-    	myo.keyboard("w","press")
-    	myo.keyboard("return","press")
+    	if(edge == "on")then
+	    	myo.keyboard("w","press")
+	    	myo.keyboard("return","press")
+    	elseif(edge == "off")then
+    	end
 
     elseif(pose == "fingersSpread")then
-    	myo.keyboard("s","press")
-    	myo.keyboard("return","press")
+    	if(edge == "on")then
+	    	myo.keyboard("s","press")
+	    	myo.keyboard("return","press")
+    	elseif(edge == "off")then
+    	end
 
     elseif(pose == "doubleTap")then
-    	myo.keyboard("x","press")
-    	myo.keyboard("return","press")
+    	if(edge == "on")then
+	    	myo.keyboard("x","press")
+	    	myo.keyboard("return","press")
+    	elseif(edge == "off")then
+    	end
     end
 end
 
