@@ -7,3 +7,4 @@ Commands:
 <h3>doubleTab: is type 'x' which is pause</h3>
 ENJOY
 ====
+edit
