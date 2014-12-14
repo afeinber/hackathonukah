@@ -1,4 +1,4 @@
-Commands:
+Commands for Myo Armband:
 ====
 <h3>waveIn: is type 'a' which is move left</h3>
 <h3>waveOut: is type 'd' which is move right</h3>
