@@ -3,6 +3,7 @@ scriptTitle = "Output Everything"
 scriptDetailsUrl = "" -- We don't have this until it's submitted to the Myo Market
 
 function onPoseEdge(pose, edge)
+
 	myo.unlock("hold")
     myo.debug("onPose: " .. pose.. " edge:"..edge)
     if(pose == "waveOut")then
