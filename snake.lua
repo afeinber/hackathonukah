@@ -1,5 +1,5 @@
 scriptId = 'com.thalmic.examples.outputeverything'
-scriptTitle = "Output Everything"
+scriptTitle = "Myo For Meu"
 scriptDetailsUrl = "" -- We don't have this until it's submitted to the Myo Market
 
 function onPoseEdge(pose, edge)
